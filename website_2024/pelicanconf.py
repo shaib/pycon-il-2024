@@ -53,3 +53,10 @@ THEME = "themes/PyCon-Israel-Flex"
 STYLESHEET_URL = "/theme/css/pycon-israel-2024.css"
 
 IMAGE_PROCESS = {}
+DIRECT_TEMPLATES = [
+    # 'index',
+    'authors',
+    'categories',
+    'tags',
+    'archives'
+]
