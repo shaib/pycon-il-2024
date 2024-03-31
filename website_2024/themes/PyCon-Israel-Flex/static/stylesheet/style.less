@@ -1,5 +1,11 @@
 @import "variables.less";
 
+@counter-style four-pointed-stars {
+  system: cyclic;
+  symbols: "\2726";
+  suffix: " ";
+}
+
 *:lang(he) {
   direction: rtl;
 }
@@ -74,6 +80,10 @@ hr {
 
 img {
   max-width: 100%;
+}
+
+ul.fancy-list-marker {
+  list-style-type: four-pointed-stars;
 }
 
 aside {
