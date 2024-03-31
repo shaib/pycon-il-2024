@@ -19,10 +19,18 @@
 <article class="single">
   <header>
     <h1 id="{{ page.slug }}">PyCon Israel {{ PYCON.YEAR }}</h1>
-    <h3><time datetime="2024-09-16">16.9.2024</time><br/>
-    Cinema City, Gelilot</h3>
+    <h3>
+      <nobr>Cinema City, Gelilot</nobr>
+      <span class="inline-separator">|</span>
+      <nobr><time datetime="2024-09-16">September 16, 2024</time></nobr>
+    </h3>
   </header>
   <div>
+    <section id="buttons">
+      <a class="btn homebtn" href="#about">About</a>
+      <a class="btn homebtn disabled">CFP</a>
+      <a class="btn homebtn disabled">Tickets</a>
+    </section>
     <section id="plan">
       <p><b>CFP</b> to open in early <b>May</b></p>
       <p><b>Schedule</b> to be published in early <b>July</b></p>
@@ -37,7 +45,7 @@
       </div>
     </section>
     <section id="about">
-      <h2>About PyCon Israel</h2>
+      <h2><a name="about">About PyCon Israel</a></h2>
       <p>
 	PyCon Israel 2024 will include a day of talks at Cinema City,
 	Gelilot, and a day of workshops (location to be announced).

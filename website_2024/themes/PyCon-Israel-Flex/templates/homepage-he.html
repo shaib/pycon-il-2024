@@ -19,10 +19,18 @@
 <article class="single">
   <header>
     <h1 id="{{ page.slug }}">פייקון ישראל {{ PYCON.YEAR }}</h1>
-    <h3><time datetime="2024-09-16">16.9.2024</time><br/>
-    סינמה סיטי, גלילות</h3>
+    <h3>
+      <nobr>סינמה סיטי, גלילות</nobr>
+      <span class="inline-separator">|</span>
+      <nobr><time datetime="2024-09-16">16 בספטמבר 2024</time></nobr>
+    </h3>
   </header>
   <div>
+    <section id="buttons">
+      <a class="btn homebtn" href="#about">על הכנס</a>
+      <a class="btn homebtn disabled">הגשת הצעות לתוכן</a>
+      <a class="btn homebtn disabled">כרטיסים</a>
+    </section>
     <section id="plan">
       <p><b>קריאה להצעות תוכן (CFP)</b> תיפתח בתחילת <b>מאי</b></p>
       <p><b>תוכנית הכנס</b> תפורסם בתחילת <b>יולי</b></p>
@@ -35,7 +43,7 @@
       </div>
     </section>
     <section id="about">
-      <h2>פייקון ישראל</h2>
+      <h2><a name="about">פייקון ישראל</a></h2>
       <p>
 	פייקון ישראל 2024 יכלול יום של הרצאות שייערך בסינמה סיטי
 	גלילות, ויום סדנאות שמקומו יפורסם בהמשך.  שני ימים של למידה

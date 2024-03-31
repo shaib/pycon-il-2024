@@ -365,8 +365,28 @@ section#isso-thread section.auth-section p.post-action input {
   border-radius: .25em;
 }
 
+a.btn.homebtn {
+  /* background-color: @btn-bg; */
+  padding: 0.8em;
+  margin-inline-end: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+  border-radius: .45em;
+  line-height: auto;
+  display: inline-block;
+}
+
+a.btn.disabled {
+  background-color: @btn-disabled-bg;
+}
+
 a.btn:hover {
   background-color: @btn-hover-color;
+}
+
+a.btn.disabled:hover {
+  background-color: @btn-disabled-hover-color;
 }
 
 .center, .text-center {
