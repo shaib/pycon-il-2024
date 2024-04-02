@@ -1,3 +1,5 @@
+from  markdown.extensions.toc import slugify_unicode
+
 AUTHOR = 'PyCon Israel Team'
 SITENAME = 'PyCon Israel 2024'
 SITEURL = ""
@@ -20,6 +22,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'slugify': slugify_unicode,
+        },
+    },
+    'output_format': 'html5',
+}
 # Blogroll
 LINKS = (
 #    ("Pelican", "https://getpelican.com/"),
