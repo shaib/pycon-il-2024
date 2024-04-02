@@ -1,5 +1,11 @@
 @import "variables.less";
 
+@counter-style four-pointed-stars {
+  system: cyclic;
+  symbols: "\2726";
+  suffix: " ";
+}
+
 *:lang(he) {
   direction: rtl;
 }
@@ -76,6 +82,15 @@ img {
   max-width: 100%;
 }
 
+ul.fancy-list-marker {
+  list-style-type: four-pointed-stars;
+
+  li {
+    font-size: 1.1em;
+    margin: 1.1em;
+  }
+}
+
 aside {
   background-color: @sidebar-bg;
   color: @sidebar-text-color;
@@ -95,7 +110,7 @@ aside {
 
     img {
       border-radius: 1%;
-      max-width: 140px;
+      max-width: 80%;
     }
 
     h1 {
@@ -111,25 +126,21 @@ aside {
   nav {
     ul {
       li {
-        display: inline;
+        /* display: inline; */
         line-height: 1.6em;
         font-size: 1.28em;
-        text-transform: lowercase;
+        /* text-transform: lowercase; */
       }
     }
   }
 
   .translations {
     padding-bottom: 0;
-    text-align: start;
+    text-align: center;
 
     .active {
       font-weight: 600;
     }
-  }
-  .translations:lang(he) {
-    left: default;
-    right: 0;
   }
 
 }
@@ -365,8 +376,28 @@ section#isso-thread section.auth-section p.post-action input {
   border-radius: .25em;
 }
 
+a.btn.homebtn {
+  /* background-color: @btn-bg; */
+  padding: 0.8em;
+  margin-inline-end: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+  border-radius: .45em;
+  line-height: auto;
+  display: inline-block;
+}
+
+a.btn.disabled {
+  background-color: @btn-disabled-bg;
+}
+
 a.btn:hover {
   background-color: @btn-hover-color;
+}
+
+a.btn.disabled:hover {
+  background-color: @btn-disabled-hover-color;
 }
 
 .center, .text-center {
@@ -806,4 +837,9 @@ div.figure.align-right {
   .github-corner .octo-arm{
     animation:octocat-wave 560ms ease-in-out;
   }
+
+  #buttons {
+    text-align: center;
+  }
+
 }

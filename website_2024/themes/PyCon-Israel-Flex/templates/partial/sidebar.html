@@ -5,7 +5,7 @@
     </bdi>
     {% for lang,lang_siteurl in extra_siteurls.items() %}
     {%- if RELATIVE_URLS %}
-    <bdi><a href="{{ SITEURL }}/{{ relpath_to_site(DEFAULT_LANG, lang) }}">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
+    <bdi><a href="{{ SITEURL }}/{{ relpath_to_site(DEFAULT_LANG, lang) }}/">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
     {%- else %}
     <bdi><a href="{{ lang_siteurl }}/">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
     {%- endif %}
@@ -21,6 +21,7 @@
       {% endif %}
     </a>
 
+    {# Text headers in sidebar commented out
     <h1>
       <a href="{{ SITEURL }}/">{{ SITETITLE }}</a>
     </h1>
@@ -28,6 +29,7 @@
     {% if SITESUBTITLE %}
     <p>{{ SITESUBTITLE }}</p>
     {% endif %}
+    #}
 
     {% if PLUGINS %}
     {% if ('tipue_search' in PLUGINS or 'pelican.plugins.tipue_search' in PLUGINS) %}
@@ -70,7 +72,9 @@
             </li>
           {% endfor %}
         {% endif %}
-
+	{% if pages and LINKS %}
+	    <li><br/></li> {# put some space between pages and links #}
+	{% endif %}
         {% for name, link in LINKS %}
           <li>
             <a target="{{ get_target(link) }}" href="{{ link }}" >{{ name }}</a>

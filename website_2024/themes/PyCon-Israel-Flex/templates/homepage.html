@@ -19,10 +19,28 @@
 <article class="single">
   <header>
     <h1 id="{{ page.slug }}">PyCon Israel {{ PYCON.YEAR }}</h1>
-    <h3><time datetime="2024-09-16">16.9.2024</time></h3>
-    <h3>Cinema City, Gelilot</h3>
+    <h3>
+      <nobr>Cinema City, Gelilot</nobr>
+      <span class="inline-separator">|</span>
+      <nobr><time datetime="2024-09-16">September 16, 2024</time></nobr>
+    </h3>
   </header>
   <div>
+    <section id="buttons">
+      <a class="btn homebtn" href="#about">About</a>
+      <a class="btn homebtn disabled" title="CFP to open on 1.5.2024">CFP</a>
+      <a class="btn homebtn disabled" title="Tickets not yet available">Tickets</a>
+    </section>
+    <section id="plan">
+      <h3>Welcome to PyCon Israel!</h3>
+      <ul class="fancy-list-marker">
+	<li>CFP to open on <time datetime="2024-05-01">1.5.2024</time>
+	<li>To join our sponsors, please write to
+	  <a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
+	<li>To subscribe to our mailing list for news and updates,
+	  <a href="https://lists.hamakor.org.il/postorius/lists/news.pycon.org.il">click here</a>
+      </ul>
+    </section>
     <section id="about">
       <h2>About PyCon Israel</h2>
       <p>
@@ -31,10 +49,9 @@
 	Two days of learning and socializing, fun and collaboration,
 	all around Python.
       </p>
-    </section>
-    <section id="pycon-history">
       <p>
-	PyCon Israel has been taking place since 2016; this is a talk from the 2023 edition.
+	PyCon Israel has been taking place since 2016; this is a talk
+	from the 2023 edition.
       <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/barzik-pycon23.jpg"
 	   alt="A presentation from PyCon Israel 2023, speaker seen from back and audience in hall"
 	   title="A presentation from PyCon Israel 2023">
@@ -46,22 +63,8 @@
       are available.
       </p><p>
 	For more details, visit the
-	<a href="https://pycon.org.il/2023/heb/home.html">2023 conference website</a>.
+	<a href="https://pycon.org.il/2023/index.html">2023 conference website</a>.
       </p>
-    </section>
-    <section id="sponsorships">
-      <h2>Sponsorships</h2>
-      <h4 class="call-for-sponsors">Become a Sponsor!</h4>
-      <p class="call-for-sponsors">
-	For details, please write to
-	<a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
-      </p>
-      <div class="gold-sponsor">
-	<p></p>
-      </div>
-      <div class="silver-sponsor">
-	<p></p>
-      </div>
     </section>
   </div>
 </article>
