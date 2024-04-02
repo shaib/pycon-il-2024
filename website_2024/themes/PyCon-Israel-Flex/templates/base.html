@@ -151,8 +151,21 @@
 
   {% include "partial/gtm.html" %}
   {% include "partial/clarity.html" %}
+
+  {# Ugly hack for now -- this is invoked from body.onload() #}
+  <script type="text/javascript">
+    function go_to_top() {
+	if (!document.location.hash){
+	    {% if page %}
+	    document.location.hash = "{{ page.slug }}";
+	    {% elif article %}
+	    document.location.hash = "{{ article.slug }}";
+	    {% endif %}
+	}
+    }
+  </script>
 </head>
-<body {% if not THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE %}class="{{ THEME_COLOR|default('light') }}-theme"{% endif %}>
+<body {% if not THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE %}class="{{ THEME_COLOR|default('light') }}-theme"{% endif %} onload="go_to_top()">
   {% include "partial/gtm_noscript.html" %}
 
   {% include "partial/sidebar.html" %}
