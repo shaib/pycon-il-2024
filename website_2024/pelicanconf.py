@@ -35,7 +35,10 @@ MARKDOWN = {
 }
 # Blogroll
 LINKS = (
-#    ("Pelican", "https://getpelican.com/"),
+    ("PyCon Israel 2023", "https://pycon.org.il/2023"),
+    ("PyCon Israel 2022", "https://pycon.org.il/2022"),
+    ("PyCon Israel 2021", "https://pycon.org.il/2021"),
+    ("PyCon Israel 2019", "https://pycon.org.il/2019"),
 #    ("Python.org", "https://www.python.org/"),
 #    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
 #    ("You can modify those links in your config file", "#"),
@@ -43,11 +46,11 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("Twitter", "https://twitter.com/pyconil/"),
-    ("YouTube", "https://www.youtube.com/@PyConIsrael"),
-    ("Facebook", "https://"),
-    ("LinkedIn", "https://www.linkedin.com/company/pycon-israel/"),
-    ("Mastodon", "https://tooot.im/@pyconil/"),
+    ("twitter", "https://twitter.com/pyconil/"),
+    ("youtube", "https://www.youtube.com/@PyConIsrael"),
+    ("facebook", "https://www.facebook.com/pyconisrael/"),
+    ("linkedin", "https://www.linkedin.com/company/pycon-israel/"),
+    ("mastodon", "https://tooot.im/@pyconil/"),
 )
 
 class PYCON:
