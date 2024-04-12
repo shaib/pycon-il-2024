@@ -317,9 +317,10 @@ main {
     section#pictures {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(5, 10vh);
+	grid-template-rows: repeat(5, 1fr);
 	grid-gap: 0;
 	direction: ltr;
+	aspect-ration: 6 / 5;
 
 	span, span img {
 	    width: 100%;
