@@ -97,6 +97,8 @@ I18N_SUBSITES = {
 
     }
 }
+I18N_UNTRANSLATED_ARTICLES = 'keep'
+I18N_UNTRANSLATED_PAGES = 'keep'
 
 LANGUAGE_NAMES = {
     'en': "English",
