@@ -1,7 +1,8 @@
 Title: Call for Papers (CFP)
-Slug: code-of-conduct
+Slug: call-for-papers
 Summary: Submit your proposal for a talk
 Lang: en
+page_number: 20
 
 To make this conference totally rock, we’re looking for creative, innovative talks that will expose the Python community to new ideas, practices or tools. As we gather materials for the upcoming PyCon - scheduled for September 16th, 2024 - we extend our invitation for you to join us and present your compelling Python-related work. We eagerly anticipate your participation and the opportunity to showcase your contributions to the Python community.We’d love to learn about those awesome projects you are working on - come share those with the world!
 
