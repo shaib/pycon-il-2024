@@ -1,0 +1,87 @@
+name: Deploy Site using release branch
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  INPUT_DIR: ${{ github.workspace }}/website_2024/content
+  OUTPUT_DIR: ${{ github.workspace }}/docs
+  PELICAN_CONF: ${{ github.workspace }}/website_2024/publishconf.py
+
+jobs:
+  merge-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Merge main into release branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch --all --unshallow
+          git checkout release
+          git merge --no-ff -X theirs main -m "Merge main into release"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd website_2024/themes/PyCon-Israel-Flex/
+          npm install
+
+      - name: Build project
+        run: |
+          cd website_2024/themes/PyCon-Israel-Flex/
+          npm run build
+
+      - name: Install dependencies for make html
+        run: sudo apt-get install make
+
+      - name: Set up python
+        id: setup-python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+
+      - name: Install dependencies
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
+
+      - name: Build HTML
+        run: |
+          git rm -rf ${{ env.OUTPUT_DIR }}
+          cd website_2024/
+          poetry run pelican ${{ env.INPUT_DIR }} -o ${{ env.OUTPUT_DIR }} -s ${{ env.PELICAN_CONF }}
+
+      # - name: Copy output to /docs
+      #   run: cp -r website_2024/output/* docs/
+
+      - name: Commit and push changes
+        run: |
+          cd ${{ github.workspace }}
+          git add ${{ env.OUTPUT_DIR }}
+          git commit -m "Update /docs with latest build"
+          git push origin release
