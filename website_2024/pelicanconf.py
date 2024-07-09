@@ -9,7 +9,11 @@ SITESUBTITLE = (
     "programming language, related technologies, and their use."
 )
 
+BLOG_TITLE = "News"
+BLOG_SLUG = "news"
+
 PATH = "content"
+ARTICLE_PATHS = ['blog']
 
 TIMEZONE = 'Asia/Jerusalem'
 
@@ -100,7 +104,7 @@ I18N_SUBSITES = {
             'פייקון ישראל הוא כנס המוקדש לשפת התכנות פייתון, '
             'לטכנולוגיות הקשורות אליה, ולשימוש בהן'
         ),
-
+        'BLOG_TITLE': 'חדשות',
     }
 }
 I18N_UNTRANSLATED_ARTICLES = 'keep'

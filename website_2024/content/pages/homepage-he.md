@@ -9,7 +9,7 @@ page_number:
 <section id="plan">
   <h3>ברוכים הבאים וברוכות הבאות לפייקון!</h3>
   <ul class="fancy-list-marker">
-<li><b>הקול הקורא להגשת הרצאות נפתח!</b> ניתן להגיש עד <time datetime="2024-06-08">8.6.2024</time>
+<li>הקול הקורא להגשות נסגר, והצוות שלנו עובר על ההצעות.
 <li>להצטרפות אל נותני החסות שלנו,
   כתבו ל־<a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
 <li>להרשמה לרשימת תפוצה לחדשות ועדכונים,

@@ -12,26 +12,69 @@
   </script>
 {% endif %}
 
-<h1>PyCon Israel {{ PYCON.YEAR }}</h1>
-<h3>{{ PYCON.DATES }}</h3>
-<h3>{{ PYCON.LOCATION }}</h3>
-<header>
-  <h2>About PyCon Israel</h2>
-</header>
-<div>
-  PyCon Israel 2023 included two days – a day of talks at Wohl Center,
-  and a day of workshops at the Microsoft Reactor. Two days of
-  learning and socializing, fun and collaboration, all around Python.
-</div>
-<header>
-  <h2>Sponsorships</h2>
-</header>
-<div class="sponsorship">
-  <p class="sponsors"> Here be sponsors </p>
-  {% if PYCON.SPONSORSHIP_AVAILABLE -%}
-  <p class="call-for-more">Become a sponsor </p>
+  <article>
+    <header>
+      <div class="translations">
+	<a class="active" href="{{ SITEURL }}/{{ INDEX_SAVE_AS }}#{{ BLOG_SLUG }}">{{LANGUAGE_NAMES[DEFAULT_LANG]}}</a>
+	{% for lang,lang_siteurl in extra_siteurls.items() %}
+	{%- if RELATIVE_URLS %}
+	<bdi><a href="{{ SITEURL }}/{{ relpath_to_site(DEFAULT_LANG, lang) }}/{{ INDEX_SAVE_AS }}#{{ BLOG_SLUG }}">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
+	{%- else %}
+	<bdi><a href="{{ lang_siteurl }}/{{ INDEX_SAVE_AS }}">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
+	{%- endif %}
+	{% endfor %}
+      </div>
+      <h1 id="{{ BLOG_SLUG }}">{{ SITENAME }} &ndash; {{ BLOG_TITLE }}</h1>
+    </header>
+</article>
+
+
+{% for article in articles_page.object_list %}
+<article>
+  <header>
+    <h2><a href="{{ SITEURL }}/{{ article.url }}{% if not DISABLE_URL_HASH %}#{{ article.slug }}{% endif %}">{{ article.title }}</a></h2>
+    <p>
+      {{ _('Posted on %(when)s in %(category)s',
+           when=article.locale_date,
+           category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.url, article.category)|safe) }}
+
+      {% if article.tags and not HOME_HIDE_TAGS %}
+          &#8226; {{ _('Tagged with') }}
+          {% for tag in article.tags %}
+              <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+          {% endfor %}
+      {% endif %}
+
+      {% if PLUGINS and 'post_stats' in PLUGINS %}
+        &#8226; {{ _('%(minutes)s min read', minutes=article.stats['read_mins']) }}
+      {% endif %}
+    </p>
+  </header>
+  <div>
+    {% if summarise or article.metadata['summary'] or SUMMARY_MAX_LENGTH %}
+      {% if  article.featured_image %}
+        <img src="{{ article.featured_image }}">
+      {% endif %}
+      <div>{{ article.summary }}</div>
+      {% if article.content != article.summary %}
+        <br>
+        <a class="btn"
+           href="{{ SITEURL }}/{{ article.url }}{% if not DISABLE_URL_HASH %}#{{ article.slug }}{% endif %}">
+          {{ _('Continue reading') }}
+        </a>
+      {% endif %}
+    {% else %}
+      {{ article.content }}
+    {% endif %}
+  </div>
+  {% if not loop.last %}
+  <hr />
   {% endif %}
-</div>
+</article>
+{% endfor %}
+
+{% include "partial/pagination.html" %}
+
 {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.index_bottom %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <ins class="adsbygoogle ads-responsive"

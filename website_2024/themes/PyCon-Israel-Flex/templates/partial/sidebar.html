@@ -71,6 +71,13 @@
               </a>
             </li>
           {% endfor %}
+	  {# Blog, last of the pages, is special #}
+            <li>
+              <a target="{{ get_target(SITEURL) }}"
+                 href="{{ SITEURL }}/blog_index.html{% if not DISABLE_URL_HASH %}#{{ BLOG_SLUG }}{% endif %}">
+                {{ BLOG_TITLE }}
+              </a>
+            </li>
         {% endif %}
 	{% if pages and LINKS %}
 	    <li><br/></li> {# put some space between pages and links #}

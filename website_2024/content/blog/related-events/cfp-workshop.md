@@ -2,7 +2,7 @@ Title: CFP Workshop
 Slug: cfp-workshop
 Summary: Become a speaker 📢 at PyCon Israel! CFP Workshop on May 23rd at 18:30
 Lang: en
-page_number: 45
+date: 2024-05-16
 
 ## Become a speaker  📢  at PyCon Israel!
 

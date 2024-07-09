@@ -9,7 +9,7 @@ page_number:
 <section id="plan">
   <h3>Welcome to PyCon Israel!</h3>
   <ul class="fancy-list-marker">
-<li><b>CFP is open!</b> The deadline for submissions is <time datetime="2024-06-08">8.6.2024</time>
+<li>The CFP is now closed, and our team is reviewing the submissions
 <li>To join our sponsors, please write to
   <a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
 <li>To subscribe to our mailing list for news and updates,
