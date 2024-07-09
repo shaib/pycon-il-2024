@@ -10,6 +10,7 @@ SITESUBTITLE = (
 )
 
 BLOG_TITLE = "News"
+BLOG_SLUG = "news"
 
 PATH = "content"
 ARTICLE_PATHS = ['blog']

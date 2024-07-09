@@ -12,6 +12,22 @@
   </script>
 {% endif %}
 
+  <article>
+    <header>
+      <div class="translations">
+	<a class="active" href="{{ SITEURL }}/{{ INDEX_SAVE_AS }}#{{ BLOG_SLUG }}">{{LANGUAGE_NAMES[DEFAULT_LANG]}}</a>
+	{% for lang,lang_siteurl in extra_siteurls.items() %}
+	{%- if RELATIVE_URLS %}
+	<bdi><a href="{{ SITEURL }}/{{ relpath_to_site(DEFAULT_LANG, lang) }}/{{ INDEX_SAVE_AS }}#{{ BLOG_SLUG }}">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
+	{%- else %}
+	<bdi><a href="{{ lang_siteurl }}/{{ INDEX_SAVE_AS }}">{{ LANGUAGE_NAMES[lang] }}</a></bdi>
+	{%- endif %}
+	{% endfor %}
+      </div>
+      <h1 id="{{ BLOG_SLUG }}">{{ SITENAME }} &ndash; {{ BLOG_TITLE }}</h1>
+    </header>
+</article>
+
 
 {% for article in articles_page.object_list %}
 <article>
