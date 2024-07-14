@@ -18,7 +18,7 @@ their commitment and effort.
 From left to right, top row: Dima Kuznetsov, Aviv Zaken, Shai Berger,
 Orit Wasserman, Tom Ron, Miki Tebeka; bottom row: Tomer Brisker,
 Daniel Puterman, Eyal Fishel, Meirav Ben Izhak, Shai Rubin, Alexandra
-(Litinsky) Simanovsky Ph.D.  Also reviewed: Yoav Ben-Dov and Anat Wax.
+(Litinsky) Simanovsky Ph.D.
 
 Thank you, reviewers, for your invaluable contributions!
 

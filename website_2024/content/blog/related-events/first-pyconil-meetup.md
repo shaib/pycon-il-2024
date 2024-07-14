@@ -1,4 +1,4 @@
-Title: First PyCon Istael Meetup at BGU
+Title: First PyCon Israel Meetup at BGU
 Slug: first-pyconil-meetup
 Summary: On Tuesday, July 2, we had our first meetup at Ben Gurion University. Anat Dinar-Leicaj and Shai Berger spoke to students.
 Lang: en

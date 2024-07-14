@@ -11,6 +11,8 @@ from pelicanconf import *
 SITEURL = "https://shaib.github.io/pycon-il-2024"
 RELATIVE_URLS = False
 
+FEED_DOMAIN = SITEURL
+FEED_ATOM = "feeds/updates.atom.xml"
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
@@ -20,3 +22,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # DISQUS_SITENAME = ""
 # GOOGLE_ANALYTICS = ""
+
+# Support for alternate, test deployments
+try:
+    from alternateconf import *
+except ImportError:
+    pass

@@ -9,8 +9,8 @@ SITESUBTITLE = (
     "programming language, related technologies, and their use."
 )
 
-BLOG_TITLE = "News"
-BLOG_SLUG = "news"
+BLOG_TITLE = "Updates"
+BLOG_SLUG = "updates"
 
 PATH = "content"
 ARTICLE_PATHS = ['blog']
@@ -20,6 +20,7 @@ TIMEZONE = 'Asia/Jerusalem'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
+FEED_ATOM = None
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -104,7 +105,7 @@ I18N_SUBSITES = {
             'פייקון ישראל הוא כנס המוקדש לשפת התכנות פייתון, '
             'לטכנולוגיות הקשורות אליה, ולשימוש בהן'
         ),
-        'BLOG_TITLE': 'חדשות',
+        'BLOG_TITLE': 'עדכונים',
     }
 }
 I18N_UNTRANSLATED_ARTICLES = 'keep'
