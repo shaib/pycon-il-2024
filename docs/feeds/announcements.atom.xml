@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024 - announcements</title><link href="https://shaib.github.io/pycon-il-2024/" rel="alternate"></link><link href="https://shaib.github.io/pycon-il-2024/feeds/announcements.atom.xml" rel="self"></link><id>https://shaib.github.io/pycon-il-2024/</id><updated>2024-07-21T22:45:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://shaib.github.io/pycon-il-2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
+This agenda is the result of long hours of work -- by the submitters
+of proposals which were chosen, and proposals which weren't;
+by &lt;a href="https://shaib.github.io/pycon-il-2024/meet-pyconil-reviewers.html"&gt;reviewers&lt;/a&gt;,
+and by the conference team.&lt;/p&gt;
+&lt;p&gt;The agenda includes an opening panel, 27 talks and five workshops. We
+believe it reflects our commitments to excellent content and to the
+local community.&lt;/p&gt;
+&lt;p&gt;Go &lt;a href="https://shaib.github.io/pycon-il-2024/pages/schedule.html"&gt;check it out&lt;/a&gt;! We expect
+tickets to be available later this week.&lt;/p&gt;</content><category term="announcements"></category></entry></feed>
