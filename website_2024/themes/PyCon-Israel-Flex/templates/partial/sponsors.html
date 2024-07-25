@@ -1,0 +1,12 @@
+{% macro one_sponsor_for(page) %}
+<div class="sp-level">
+<a href="{{ page.sp_link }}" class="sp-square with-description">
+    <div class="sp-logo">
+        <img src="{{ SITEURL }}/images/sponsor-logos/{{ page.sp_logo }}" alt="{{ page.title }} Logo">
+    </div>
+    <div class="sp-description">
+      {{ page.content }}
+    </div>
+</a>
+</div>
+{% endmacro %}
