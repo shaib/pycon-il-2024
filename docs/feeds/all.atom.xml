@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024</title><link href="https://shaib.github.io/pycon-il-2024/" rel="alternate"></link><link href="https://shaib.github.io/pycon-il-2024/feeds/all.atom.xml" rel="self"></link><id>https://shaib.github.io/pycon-il-2024/</id><updated>2024-07-21T22:45:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://shaib.github.io/pycon-il-2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024</title><link href="https://shaib.github.io/pycon-il-2024/" rel="alternate"></link><link href="https://shaib.github.io/pycon-il-2024/feeds/all.atom.xml" rel="self"></link><id>https://shaib.github.io/pycon-il-2024/</id><updated>2024-07-25T12:30:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Tickets Now Available!</title><link href="https://shaib.github.io/pycon-il-2024/tickets-available.html" rel="alternate"></link><published>2024-07-25T12:30:00+03:00</published><updated>2024-07-25T12:30:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-25:/pycon-il-2024/tickets-available.html</id><summary type="html">&lt;p&gt;PyCon Israel 2024 tickets are available to buy&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're happy to announce that ticket sales are now open.&lt;/p&gt;
+&lt;p&gt;But first a few important points to note:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pricing Policy&lt;/strong&gt; - We have always strived to keep PyCon Israel
+ticket prices low, to make the conference accessible to a wide and
+diverse audience. In past years, ticket price was far below the
+conference costs per attendee (PyCon Israel is run by volunteers, and
+was never intended to make a profit). But as the majority of
+tickets ended up being purchased by companies for their employees, it
+meant that the conference was subsidizing these companies (with
+volunteer work and sponsors money).&lt;/p&gt;
+&lt;p&gt;Trying to come up with a pricing policy that makes more sense, this
+year, we’re trying a different way. Tickets purchased by companies
+will be sold at a price that reflects actual costs to the conference
+(full price - 450₪), and tickets for individuals, at a more affordable
+price (250₪). We trust conference goers not abuse this policy, and
+hope to be able to keep the lower price available for individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Tickets&lt;/strong&gt; - Same as previous years, there are separate
+conference tickets (for the first day - September 16th at Cinema
+City), and Workshop tickets (for the 2nd day - at the Microsoft
+Reactor); Workshop tickets need to be purchased individually for each
+workshop. Each workshop costs 20 ILS, serving as a 'commitment
+ticket'. These tickets are not valid for the conference talks day, and
+vice versa. We will refund the cost of the commitment ticket if you
+attend the workshop. There are limited seats to each workshop, and
+while we recognize the will to secure your spot, we also ask that you
+not hold a ticket if you don’t really intend to come.&lt;/p&gt;
+&lt;p&gt;Now, go &lt;a href="https://ti.to/hamakor/pycon2024"&gt;grab your tickets&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(edited 25/7/2024 18:00)&lt;/small&gt;&lt;/p&gt;</content><category term="announcements"></category></entry><entry><title>כרטיסים לפייקון ישראל 2024</title><link href="https://shaib.github.io/pycon-il-2024/he/tickets-available.html" rel="alternate"></link><published>2024-07-25T12:30:00+03:00</published><updated>2024-07-25T12:30:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-25:/pycon-il-2024/he/tickets-available.html</id><summary type="html">&lt;p&gt;אפשר עכשיו לקנות כרטיסים לכנס פייקון ישראל 2024&lt;/p&gt;</summary><content type="html">&lt;p&gt;צוות פייקון ישראל שמח להכריז על פתיחת מכירת הכרטיסים לכנס.&lt;/p&gt;
+&lt;p&gt;אבל קודם, יש לנו כמה נקודות חשובות:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;מדיניות תמחור&lt;/strong&gt; - תמיד הצבנו לעצמנו למטרה לשמור את מחירי הכרטיסים
+לפייקון ישראל נמוכים, כדי שהכנס יהיה נגיש לקהל רחב ומגוון ככל
+האפשר. בשנים קודמות, מחיר הכרטיס היה הרבה מתחת לעלות של הכנס לאורח/ת
+בודד/ת (פייקון ישראל מופעל ע״י מתנדבות ומתנדבים, ומעולם לא נועד
+להרוויח כסף). אבל מאחר שרוב הכרטיסים נרכשו בסופו של דבר ע״י חברות עבור
+העובדים/ות שלהן, התוצאה היתה שהכנס סיבסד את אותן חברות (באמצעות עבודה
+התנדבותית וכסף מחסויות).&lt;/p&gt;
+&lt;p&gt;בניסיון למצוא מדיניות תמחור הגיונית יותר, השנה, החלטנו לנסות דרך
+אחרת. כרטיסים שיירכשו על ידי חברות יימכרו במחיר שמשקף, פחות או יותר,
+את העלויות של הכנס (מחיר מלא - 450 ₪), וכרטיסים לפרטים, במחיר נגיש
+יותר (250 ₪). אנחנו סומכים/ות על באי/ות הכנס שלא ינצלו מדיניות זו
+לרעה, ומקווים/ות שנוכל להמשיך להציע את המחיר הנמוך יותר לפרטים.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;כרטיסים לסדנאות&lt;/strong&gt; - כמו בשנים קודמות, ישנם כרטיסים נפרדים ליום
+ההרצאות (היום הראשון - 16 בספטמבר בסינמה סיטי), וכרטיסים לסדנאות (ליום
+השני - בריאקטור של מיקרוסופט); יש לקנות כרטיס לכל סדנא בנפרד. עלות
+הכרטיס לסדנה היא 20 ₪, שמשמשים כ„דמי רצינות”. כרטיסים אלה אינם תקפים
+ליום ההרצאות, ולהיפך, כרטיסי יום ההרצאות אינם תקפים לסדנאות. דמי
+הרצינות יוחזרו אם תגיעו לסדנה. מספר המקומות בכל סדנה מוגבל; עם ההבנה
+לרצון להבטיח את מקומכם/ן, אנחנו נעדיף שלא תחזיקו כרטיס אם אין לכם/ן
+כוונה אמיתית לבוא.&lt;/p&gt;
+&lt;p&gt;זהו. יאללה, לכו &lt;a href="https://ti.to/hamakor/pycon2024"&gt;לקנות כרטיסים&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(נערך ב־25/7/2024 18:00)&lt;/small&gt;&lt;/p&gt;</content><category term="announcements"></category></entry><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://shaib.github.io/pycon-il-2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
 This agenda is the result of long hours of work -- by the submitters
 of proposals which were chosen, and proposals which weren't;
 by &lt;a href="https://shaib.github.io/pycon-il-2024/meet-pyconil-reviewers.html"&gt;reviewers&lt;/a&gt;,
@@ -25,7 +75,7 @@ and interviewing tips. Our guest speakers for the next workshop: Anat
 Dinar - Leicaj &amp;amp; Orit Wasserman.&lt;/p&gt;
 &lt;p&gt;You're welcome to join us!! Sign up &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSjKNWRhNM73e2cJxIovFACCVttf71stISVp9Mhf8IyFrOg/viewform"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Title (Hebrew): &amp;quot;Women in Computer Science - Workshop on Career Management&amp;quot;. Pictures of speakers, with their names and talk topics(still Hebrew): Orit Wasserman, Distinguished Engineer, IBM, &amp;quot;On Career Paths and Job Interviews&amp;quot;; Anat Dinar-Leicaj, VP HR, Buildots, &amp;quot;Preparing for interviews at Software Companies&amp;quot;. Bottom: Sunday, July 28 2024, 7:00-9:00PM" src="https://shaib.github.io/pycon-il-2024/images/women-career-online-workshop-2.jpeg"&gt;&lt;/p&gt;</content><category term="related-events"></category></entry><entry><title>סדנה מקוונת שניה לניהול קריירה</title><link href="https://shaib.github.io/pycon-il-2024/he/pyconil-career-workshop-2.html" rel="alternate"></link><published>2024-07-21T20:45:00+03:00</published><updated>2024-07-21T20:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/he/pyconil-career-workshop-2.html</id><summary type="html">&lt;p&gt;ביום ראשון 28.7 נערוך את הסדנה המקוונת השניה שלנו לניהול קריירה וחיפוש עבודה לנשים במדעי המחשב. ענת דינר ואורית וסרמן ירצו.&lt;/p&gt;</summary><content type="html">&lt;p&gt;אנחנו שמחות לערוך את הסדנה המקוונת השניה לניהול קריירה וחיפוש עבודה
-לנשים במדעי המחשב!  בסדנאות אלו מציגות דמויות מובילות בעולם הטכנולוגיה
+לנשים במדעי המחשב!  בסדנאות אלו מופיעות מנהיגות בעולם הטכנולוגיה
 ומראיינות מנוסות, שהן גם מנטוריות בפייקון ישראל, דוברות בכנסים
 ומארגנות.&lt;/p&gt;
 &lt;p&gt;הסדנאות מספקות למחפשות העבודה תובנות חשובות לגבי מסלולי קריירה, חיפוש

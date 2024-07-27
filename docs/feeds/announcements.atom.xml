@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024 - announcements</title><link href="https://shaib.github.io/pycon-il-2024/" rel="alternate"></link><link href="https://shaib.github.io/pycon-il-2024/feeds/announcements.atom.xml" rel="self"></link><id>https://shaib.github.io/pycon-il-2024/</id><updated>2024-07-21T22:45:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://shaib.github.io/pycon-il-2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024 - announcements</title><link href="https://shaib.github.io/pycon-il-2024/" rel="alternate"></link><link href="https://shaib.github.io/pycon-il-2024/feeds/announcements.atom.xml" rel="self"></link><id>https://shaib.github.io/pycon-il-2024/</id><updated>2024-07-25T12:30:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Tickets Now Available!</title><link href="https://shaib.github.io/pycon-il-2024/tickets-available.html" rel="alternate"></link><published>2024-07-25T12:30:00+03:00</published><updated>2024-07-25T12:30:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-25:/pycon-il-2024/tickets-available.html</id><summary type="html">&lt;p&gt;PyCon Israel 2024 tickets are available to buy&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're happy to announce that ticket sales are now open.&lt;/p&gt;
+&lt;p&gt;But first a few important points to note:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pricing Policy&lt;/strong&gt; - We have always strived to keep PyCon Israel
+ticket prices low, to make the conference accessible to a wide and
+diverse audience. In past years, ticket price was far below the
+conference costs per attendee (PyCon Israel is run by volunteers, and
+was never intended to make a profit). But as the majority of
+tickets ended up being purchased by companies for their employees, it
+meant that the conference was subsidizing these companies (with
+volunteer work and sponsors money).&lt;/p&gt;
+&lt;p&gt;Trying to come up with a pricing policy that makes more sense, this
+year, we’re trying a different way. Tickets purchased by companies
+will be sold at a price that reflects actual costs to the conference
+(full price - 450₪), and tickets for individuals, at a more affordable
+price (250₪). We trust conference goers not abuse this policy, and
+hope to be able to keep the lower price available for individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Tickets&lt;/strong&gt; - Same as previous years, there are separate
+conference tickets (for the first day - September 16th at Cinema
+City), and Workshop tickets (for the 2nd day - at the Microsoft
+Reactor); Workshop tickets need to be purchased individually for each
+workshop. Each workshop costs 20 ILS, serving as a 'commitment
+ticket'. These tickets are not valid for the conference talks day, and
+vice versa. We will refund the cost of the commitment ticket if you
+attend the workshop. There are limited seats to each workshop, and
+while we recognize the will to secure your spot, we also ask that you
+not hold a ticket if you don’t really intend to come.&lt;/p&gt;
+&lt;p&gt;Now, go &lt;a href="https://ti.to/hamakor/pycon2024"&gt;grab your tickets&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(edited 25/7/2024 18:00)&lt;/small&gt;&lt;/p&gt;</content><category term="announcements"></category></entry><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://shaib.github.io/pycon-il-2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:shaib.github.io,2024-07-21:/pycon-il-2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
 This agenda is the result of long hours of work -- by the submitters
 of proposals which were chosen, and proposals which weren't;
 by &lt;a href="https://shaib.github.io/pycon-il-2024/meet-pyconil-reviewers.html"&gt;reviewers&lt;/a&gt;,
