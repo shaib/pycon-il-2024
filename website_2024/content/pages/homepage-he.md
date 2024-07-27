@@ -9,7 +9,8 @@ page_number:
 <section id="plan">
   <h3>ברוכים הבאים וברוכות הבאות לפייקון!</h3>
   <ul class="fancy-list-marker">
-<li>הקול הקורא להגשות נסגר, והצוות שלנו עובר על ההצעות.
+<li>יום של <a href="https://cfp.pycon.org.il/pycon-2024/schedule/">הרצאות</a> בסינמה סיטי, גלילות
+<li>ואחריו, יום של <a href="https://cfp.pycon.org.il/pycon-2024/schedule/#2024-09-17">סדנאות</a> בריאקטור של מיקרוסופט במידטאון, תל אביב
 <li>להצטרפות אל נותני החסות שלנו,
   כתבו ל־<a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
 <li>להרשמה לרשימת תפוצה לחדשות ועדכונים,

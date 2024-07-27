@@ -31,7 +31,7 @@
       {# TODO: These buttons should be controlled from config vars #}
       <a class="btn homebtn" href="#about">About</a>
       <a class="btn homebtn" href="{{ SITEURL }}/pages/schedule.html{% if not DISABLE_URL_HASH %}#schedule{% endif %}">Agenda</a>
-      <a class="btn homebtn disabled" title="Tickets not yet available">Tickets</a>
+      <a class="btn homebtn" href="https://ti.to/hamakor/pycon2024">Tickets</a>
     </section>
     {% endblock %}
     {% block page_content %}{{ page.content }}{% endblock %}
