@@ -9,7 +9,8 @@ page_number:
 <section id="plan">
   <h3>Welcome to PyCon Israel!</h3>
   <ul class="fancy-list-marker">
-<li>The CFP is now closed, and our team is reviewing the submissions
+<li>A day of <a href="https://cfp.pycon.org.il/pycon-2024/schedule/">conference talks</a> at Cinema City, Gelilot
+<li>Then, a day of <a href="https://cfp.pycon.org.il/pycon-2024/schedule/#2024-09-17">workshops</a> at the Microsoft Reactor at Midtown, Tel Aviv
 <li>To join our sponsors, please write to
   <a href="mailto:sponsors@pycon.org.il">sponsors@pycon.org.il</a>
 <li>To subscribe to our mailing list for news and updates,
@@ -68,11 +69,10 @@ keynote speakers and talks from local Python experts, as well
 as community-building activities.
   </p>
   <p>
-PyCon Israel 2024 will include a day of talks at Cinema
-City, Gelilot, and a day of workshops (location to be
-announced).  Two days of learning and socializing, fun and
-collaboration, all around Python &mdash; continuing the
-tradition started in 2016.
+PyCon Israel 2024 will include a day of talks at Cinema City, Gelilot,
+and a day of workshops at the Microsoft Reactor in Teal Aviv.  Two
+days of learning and socializing, fun and collaboration, all around
+Python &mdash; continuing the tradition started in 2016.
   </p>
   <p>
 In 2023 we
