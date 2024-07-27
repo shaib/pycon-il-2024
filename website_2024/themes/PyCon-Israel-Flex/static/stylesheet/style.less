@@ -913,16 +913,43 @@ div.figure.align-right {
 }
 
 .sp-square {
-    min-height: 175px;
+    min-width: 175px;
+    min-height: 100px;
+    max-height: 100px;
     border-radius: 16px;
     border: 0.806px solid #DADADA;
     background: #fff;
     box-shadow: 0px 3px 16px 0px rgba(136, 136, 136, 0.35) inset;
     padding: 30px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    .sp-logo {
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	img {
+	    max-height: 80px;
+	}
+    }
+}
+
+.sp-diamond .sp-square {
+    max-height: 140px;
+    min-width: 225px;
+    img {
+	max-height: 100px;
+    }
+}
+
+.sp-gold .sp-square {
+    max-height: 120px;
+    min-width: 200px;
+    img {
+	max-height: 90px;
+    }
 }
 
 .sp-description {
@@ -930,7 +957,7 @@ div.figure.align-right {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 25px;
+    padding: 10px;
     height: calc(100% - 50px);
     width: calc(100% - 50px);
     overflow: auto;
