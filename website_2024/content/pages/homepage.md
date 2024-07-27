@@ -69,11 +69,10 @@ keynote speakers and talks from local Python experts, as well
 as community-building activities.
   </p>
   <p>
-PyCon Israel 2024 will include a day of talks at Cinema
-City, Gelilot, and a day of workshops (location to be
-announced).  Two days of learning and socializing, fun and
-collaboration, all around Python &mdash; continuing the
-tradition started in 2016.
+PyCon Israel 2024 will include a day of talks at Cinema City, Gelilot,
+and a day of workshops at the Microsoft Reactor in Teal Aviv.  Two
+days of learning and socializing, fun and collaboration, all around
+Python &mdash; continuing the tradition started in 2016.
   </p>
   <p>
 In 2023 we
