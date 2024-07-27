@@ -74,6 +74,13 @@ class PYCON:
     }
     SPONSORSHIP_AVAILABLE = True
 
+SPONSOR_LEVELS = {
+    '20-gold': {
+        'class': "sp-gold",
+        'name': {"en": "Gold Sponsors", "he": "חסות זהב" },
+        },
+}
+
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
