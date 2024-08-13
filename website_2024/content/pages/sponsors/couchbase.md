@@ -1,5 +1,5 @@
 Title: Couchbase
-Slug: couchbase
+Slug: acouchbase
 Summary: Award-winning distributed NoSQL cloud database
 Lang: en
 sp_level: 20-gold

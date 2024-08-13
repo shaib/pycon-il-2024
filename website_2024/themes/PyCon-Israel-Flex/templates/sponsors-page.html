@@ -1,0 +1,17 @@
+{% extends "page.html" %}
+
+{% block page_content %}
+
+{% import 'partial/sponsors.html' as sponsors with context %}
+{% for sp_level, sp_pages in pages|groupby("sp_level", default="") if sp_level %}
+  <div class="sp-level {{ SPONSOR_LEVELS[sp_level]['class'] }}">
+    <h3>{{ SPONSOR_LEVELS[sp_level].name[page.lang] }}</h3>
+  </div>
+  <div class="sp-level {{ SPONSOR_LEVELS[sp_level]['class'] }}">
+    {% for sp_page in sp_pages %}
+    {{ sponsors.one_sponsor_for(sp_page) }}
+    {% endfor %}
+  </div>
+{% endfor %}
+
+{% endblock %}
