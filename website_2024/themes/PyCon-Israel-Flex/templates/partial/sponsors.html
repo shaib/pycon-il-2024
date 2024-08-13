@@ -2,10 +2,20 @@
 {# <div class="sp-level"> #}
 <a href="{{ page.sp_link }}" class="sp-square with-description">
     <div class="sp-logo">
-        <img src="{{ SITEURL }}/images/sponsor-logos/{{ page.sp_logo }}" alt="{{ page.title }} Logo">
+        <img src="{{ main_siteurl }}/images/sponsor-logos/{{ page.sp_logo }}" alt="{{ page.title }} Logo">
     </div>
     <div class="sp-description">
       {{ page.content }}
+    </div>
+</a>
+{# </div> #}
+{% endmacro %}
+
+{% macro sponsor_logo_for(page) %}
+{# <div class="sp-level"> #}
+<a href="{{ page.sp_link }}" class="sp-just-logo">
+    <div class="sp-logo">
+        <img src="{{ main_siteurl }}/images/sponsor-logos/{{ page.sp_logo }}" alt="{{ page.title }} Logo">
     </div>
 </a>
 {# </div> #}
