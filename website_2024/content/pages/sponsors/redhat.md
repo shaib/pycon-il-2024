@@ -1,5 +1,5 @@
 Title: Red Hat
-Slug: redhat
+Slug: aredhat
 Summary: Red Hat is the world’s leading provider of enterprise open-source solutions
 Lang: en
 sp_level: 30-silver

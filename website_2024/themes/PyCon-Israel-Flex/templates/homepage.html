@@ -39,7 +39,7 @@
     <section id="sponsors">
       {# FIXME: This section should move up in page #}
       {# TODO: A restructuring to support page sections more generally #}
-      <h2>Sponsors and partners</h2>
+      <h2><a href="{{ SITEURL }}/pages/sponsors.html{% if not DISABLE_URL_HASH %}#sponsors{% endif %}">Sponsors and partners</a></h2>
       {% import 'partial/sponsors.html' as sponsors with context %}
       {% for sp_level, sp_pages in pages|groupby("sp_level", default="") if sp_level %}
       <div class="sp-level {{ SPONSOR_LEVELS[sp_level]['class'] }}">
@@ -47,11 +47,10 @@
       </div>
       <div class="sp-level {{ SPONSOR_LEVELS[sp_level]['class'] }}">
 	{% for sp_page in sp_pages %}
-	{{ sponsors.one_sponsor_for(sp_page) }}
+	{{ sponsors.sponsor_logo_for(sp_page) }}
 	{% endfor %}
       </div>
-      {% endfor %}
-      
+      {% endfor %}      
     </section>
     {% endblock %}
 
