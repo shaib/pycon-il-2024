@@ -3,7 +3,7 @@ Slug: permit
 Summary: Full Stack authorization as a service
 Lang: en
 sp_level: 30-silver
-sp_logo: Permit.io.svg
+sp_logo: permit.svg
 sp_link: https://www.permit.io
 hidden: true
 
