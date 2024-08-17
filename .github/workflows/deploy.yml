@@ -72,8 +72,7 @@ jobs:
 
       - name: Generated spakers page
         run: |
-          pip install requests
-          python speakers.py ${{ vars.PRETALX_EVENT_NAME }} -t ${{ vars.PRETALX_API_TOKEN }} -o website_2024/content/pages/speakers.md --verbose
+          poetry run python speakers.py ${{ vars.PRETALX_EVENT_NAME }} -t ${{ vars.PRETALX_API_TOKEN }} -o website_2024/content/pages/speakers.md --verbose
 
       - name: Build HTML
         run: |
