@@ -12,6 +12,6 @@ Whether you're building tools, teaching others, pushing the boundaries of the la
 📆 Workshop Date: Monday, April 21st, 2025 17:30-20:00  
 📍 Where: PyCon 2025 Workshop, Tel Aviv (exact location will be announced soon)  
 
-📬 Sign up for the workshop:  https://forms.gle/fMqg2WN8TuojtNHW6
+📬 Sign up for the workshop:  [https://forms.gle/fMqg2WN8TuojtNHW6](https://forms.gle/fMqg2WN8TuojtNHW6)
 
 Let’s build something great together. See you at the workshop!
